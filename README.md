@@ -1,3 +1,11 @@
+Hi 👋 My name is Manuel Mendes!
+===============================
+
+Student
+-------
+
+I've been learning coding since 2022, have used C++ and Python.
+
 ## Hi there 👋
 
 <!--
