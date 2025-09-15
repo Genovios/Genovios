@@ -3,17 +3,36 @@
 h1 {
     font-family: "Romanesco", cursive;
     color: darkblue;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    margin-left: 5.25em;
 }
 
 /* .customClass, #customId */
 
- .myDivClass {
+.myDivClass {
     height: 50px;
     width: 20px;
     background-color: Gold;
     border: dotted 1px Black;
     margin-left: 12em;
     padding: 4px;
+}
+
+a[href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php"] {
+    background: green;
+}
+
+#test{
+    color: darkblue;
+}
+
+.buttonColor {
+    background-color: blue;
+    color: black;
 }
 
 ul {

@@ -10,7 +10,7 @@
 	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="styles/style.css"> <!-- Linking files / folders -->
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<!-- Don't do the following: -->
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap'); 
@@ -44,10 +44,10 @@
 				<a class="nav-link active" aria-current="page" href="">Repository</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="https://wave.webaim.org/report#/https://genovios.github.io/Genovios/" tagret="_blank">Accessibility Report</a>
+				<a class="nav-link active" aria-current="page" href="https://wave.webaim.org/report#/https://genovios.github.io/Genovios/" target="_blank">Accessibility Report</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenovios.github.io%2FGenovios%2F" tagret="_blank">HTML Report</a>
+				<a class="nav-link active" aria-current="page" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenovios.github.io%2FGenovios%2F" target="_blank">HTML Report</a>
 			  </li>
 
 			  <li class="nav-item dropdown">
@@ -59,8 +59,8 @@
 				  <li><a class="dropdown-item" href="#">Another action</a></li>
 				  <li><hr class="dropdown-divider"></li>
 				  <li><a class="dropdown-item" href="#">Something else here</a></li>-->
-				</ul>
-			  </li>
+				<!--</ul>
+			  </li>-->
 			  <!--<li class="nav-item">
 				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
 			  </li>
@@ -101,12 +101,15 @@
 				<div class="card-header">
 					<h4 class="card-title"> BS5 Card </h4>
 				</div>
-				<div class="card-body"></div>
-					<ul class="list-group">
-						<li class="list-group-item"> Card </li>
-						<li class="list-group-item"> Card </li>
-						<li class="list-group-item"> Card </li>
-					</ul>
+				<div class="card" style="width:400px">
+  					<img class="card-img-top" src="img_avatar1.png" alt="Card image">
+  						<div class="card-body">
+    						<h4 class="card-title">John Doe</h4>
+    						<p class="card-text">Some example text.</p>
+    						<a href="#" class="btn btn-primary">See Profile</a>
+  						</div>
+				</div>
+
 				<div class="card-footer"></div>
 					<a class="btn btn-primary" href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php" target="blank"> 
 						Read More 
@@ -117,7 +120,7 @@
 
 	<footer class="text-center bg-light">
 		<!--<button>Click Me!</button>-->
-		<button id="btnClicky" type="button" class="btn btn-outline-dark" onclick="btnClickyAction()">Click Me, Please!</button>
+		<button id="btnClicky" type="button" class="btn btn-outline-dark" onclick="btnClickyAction()">Click to Change this Button's Color!</button>
 	</footer>
 
 
