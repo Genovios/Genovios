@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!-- a declaration...HTML5; Turn line into comment: Ctrl + / -->
+<!DOCTYPE html> 
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,25 +11,26 @@
 
 	<link rel="stylesheet" href="styles/style.css"> <!-- Linking files / folders -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	<!-- Don't do the following: -->
+
+	<!-- Don't do the following: 
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap'); 
-	</style>
+	</style> -->
 
   <title>Document</title>
 </head>
 <body class="container-fluid">
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
-		  <a class="navbar-brand" href="#">Navbar</a>
+		  <a class="navbar-brand" href="#">NAVBAR:</a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon">[Dropdown]</span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="pages/blog.html">Blog</a>
+				<a class="nav-link active" aria-current="page" href="pages/blog.html">Blogs</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link active" aria-current="page" href="pages/project.html">Projects</a>
@@ -52,75 +53,48 @@
 
 			  <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-				  Dropdown
 				</a>
-				<!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <li><a class="dropdown-item" href="#">Action</a></li>
-				  <li><a class="dropdown-item" href="#">Another action</a></li>
-				  <li><hr class="dropdown-divider"></li>
-				  <li><a class="dropdown-item" href="#">Something else here</a></li>-->
-				<!--</ul>
-			  </li>-->
-			  <!--<li class="nav-item">
-				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
 			  </li>
 			</ul>
-			<!--<form class="d-flex">
-			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-			  <button class="btn btn-outline-success" type="submit">Search</button>
-			</form>-->
 		  </div>
 		</div>
 	</nav>
-
-	<!--<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <div class="container-fluid">
-			<a class="navbar-brand" href="#">Navbar</a>
-		  </div>
-		</nav>
-	</div>-->
 
 	<nav class="navbar navbar-light">
 		<!-- Navbar content -->
 	</nav>
 
-	<h1>Tony's Dev Page</h1>
-
-
-	<!--
-	TODO: make a bootstrap profile code
-	<label>Enter Your Name: </label><br>
-	<hr>
-	<div id="myDivId" class="myDivClass"> My Div </div>
-	-->
+	<h1>My Dev Page</h1>
 
 	<div class="row">
 		<div class="col-md-6 offset-md-3">
 			<div class="card">
 				<div class="card-header">
-					<h4 class="card-title"> BS5 Card </h4>
+					<h4 class="card-title"> Dev Card </h4>
 				</div>
 				<div class="card" style="width:400px">
-  					<img class="card-img-top" src="img_avatar1.png" alt="Card image">
+  					<img class="card-img-top" src="images/devPic.png" alt="Dev Photo">
   						<div class="card-body">
-    						<h4 class="card-title">John Doe</h4>
-    						<p class="card-text">Some example text.</p>
-    						<a href="#" class="btn btn-primary">See Profile</a>
+    						<h4 class="card-title">T, The Dev</h4>
+    						<p class="card-text">
+								Hi! I'm T, and this is my dev page! Feel free to use the Navbar
+								above and take a look around the other linked pages!
+							</p>
+    						<a href="https://github.com/Genovios" class="btn btn-primary" target="_blank">See Github Profile</a>
   						</div>
 				</div>
 
 				<div class="card-footer"></div>
 					<a class="btn btn-primary" href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php" target="blank"> 
-						Read More 
+						Learn how to make a Dev Card with BS5
 					</a>
 			</div>
 		</div>
 	</div>
 
-	<footer class="text-center bg-light">
+	<footer class="text-center footer-first">
 		<!--<button>Click Me!</button>-->
-		<button id="btnClicky" type="button" class="btn btn-outline-dark" onclick="btnClickyAction()">Click to Change this Button's Color!</button>
+		<button id="btnClicky" type="button" class="btn btn-outline-light" onclick="btnClickyAction()">Click to change this button to my favorite color!</button>
 	</footer>
 
 

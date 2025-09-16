@@ -1,9 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 h1 {
-    font-family: "Romanesco", cursive;
+    font-family: "Oswald";
     color: darkblue;
     text-align: center;
+    font-size: 4vw;
+}
+
+.navbar {
+    background-color: black
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.nav-link {
+    color: white;
 }
 
 .card {
@@ -11,15 +28,34 @@ h1 {
     margin-left: 5.25em;
 }
 
+.card-image-top {
+    width: 75%;
+    height: auto;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.btn-primary {
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer-first {
+    padding: 5px;
+    margin: 10px;
+    background-color: black;
+}
+
 /* .customClass, #customId */
 
-.myDivClass {
-    height: 50px;
-    width: 20px;
-    background-color: Gold;
-    border: dotted 1px Black;
-    margin-left: 12em;
-    padding: 4px;
+div.homeBtn {
+    text-align: center;
+}
+
+ul.resource {
+    text-align: center;
 }
 
 a[href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php"] {
@@ -27,7 +63,7 @@ a[href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php"] {
 }
 
 #test{
-    color: darkblue;
+    color: lightblue;
 }
 
 .buttonColor {
@@ -39,3 +75,14 @@ ul {
     list-style-type: none;
 }
 
+.resources {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#resourceLink {
+    padding: 10px;
+    text-align: center;
+    color: green;
+}
