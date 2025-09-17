@@ -30,6 +30,9 @@ Wireframe Image:
 
 <img src="docs/images/wireframeDevPage.png" alt="Wireframe of Dev Page">
 
+Link to Wireframe:
+https://www.figma.com/design/ggjDE38FMqXbdeyc9cJCrj/wireframeDevPage?node-id=0-1&t=mA4uUnlI3MyPWvTL-1
+
 ## How to View
 Link to Live Site: 
 https://genovios.github.io/Genovios/
@@ -70,5 +73,5 @@ Code for Dev Card:
 
 ## Disclaimers
 Resources for Assistance
-- CIS Tutoring (Collaborated with a Tutor): Jquery, HTML ID and Class Tagging, Errors
+- CIS Tutoring (Collaborated with a Tutor): JQuery, HTML ID and Class Tagging, Errors
 - W3 Schools: JQuery, Image Editing, Text Editing, BS5 (Bootstrap 5)
