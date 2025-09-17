@@ -29,11 +29,13 @@ h1 {
 }
 
 .card-image-top {
+    display: block;
     width: 75%;
     height: auto;
 }
 
 .card-body {
+    display: block;
     padding: 10px;
 }
 
@@ -63,7 +65,7 @@ a[href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php"] {
 }
 
 #test{
-    color: lightblue;
+    color: blue;
 }
 
 .buttonColor {
@@ -85,4 +87,10 @@ ul {
     padding: 10px;
     text-align: center;
     color: green;
+}
+
+#projectPics {
+    display: block;
+    margin: auto;
+    padding: auto;
 }
