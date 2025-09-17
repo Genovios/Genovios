@@ -2,29 +2,27 @@ Hi 👋 My name is Manuel Mendes!
 ===============================
 
 Student
--------
+----------
 
 I've been learning coding since 2022, and have used C++ and Python.
 
 ## Hi there 👋
 
-## The Following is For Project Alpha:
-
+--------------------
 ## Overview
 
 This is a site intended to share information about a particular developer.
 
 Site Map:
 
-*- Home / Dev Page
-*-- Blogs
-*-- Projects
-*-- Resources
-*--- Outside Links
-*-- Live Site
-*-- Github Repository
-*-- HTML Check
-*-- Accessibility Check
+- Home / Dev Page
+- Blogs
+- Projects
+- Resources
+- Live Site
+- Github Repository
+- Accessibility Check
+- HTML Check
 
 ## Wireframe
 
@@ -72,11 +70,5 @@ Code for Dev Card:
 
 ## Disclaimers
 Resources for Assistance
-*- CIS Tutoring (Collaborated with a Tutor)
-*-- JQuery
-*-- HTML id and class
-*- W3 Schools
-*-- Image Centering
-*-- JQuery
-*-- Responsive Text
-*-- Alt. Text Guide
+- CIS Tutoring (Collaborated with a Tutor): Jquery, HTML ID and Class Tagging, Errors
+- W3 Schools: JQuery, Image Editing, Text Editing, BS5 (Bootstrap 5)

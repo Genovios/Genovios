@@ -1,9 +1,11 @@
+<!--Start of Site-->
 <!DOCTYPE html> 
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<!--Referencing Necessary Style Attributes-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
@@ -12,37 +14,45 @@
 	<link rel="stylesheet" href="styles/style.css"> <!-- Linking files / folders -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-  <title>Document</title>
+  <title>Main Dev Page / Home</title>
 </head>
 <body class="container-fluid">
 
+	<!--Start of Navbar Content / Links-->
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
 		  <a class="navbar-brand" href="#">NAVBAR:</a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon">[Dropdown]</span>
+			<span class="navbar-toggler-icon">[Dropdown]</span> <!-- Dropdown Button for Mobile / Small Page-->
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 			  <li class="nav-item">
+				<!-- Link to Blog Page -->
 				<a class="nav-link active" aria-current="page" href="pages/blog.html">Blogs</a>
 			  </li>
 			  <li class="nav-item">
+				<!-- Link to Projects Page -->
 				<a class="nav-link active" aria-current="page" href="pages/project.html">Projects</a>
 			  </li>
 			  <li class="nav-item">
+				<!-- Link to Resources Page -->
 				<a class="nav-link active" aria-current="page" href="pages/resources.html">Resources</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="">Live Site</a>
+				<!-- Link to Live Site -->
+				<a class="nav-link active" aria-current="page" href="https://genovios.github.io/Genovios/" target="_blank">Live Site</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="">Repository</a>
+				<!-- Link to Repository Page -->
+				<a class="nav-link active" aria-current="page" href="https://github.com/Genovios/Genovios" target="_blank">Repository</a>
 			  </li>
 			  <li class="nav-item">
+				<!-- Link to Accessibility Report Site-->
 				<a class="nav-link active" aria-current="page" href="https://wave.webaim.org/report#/https://genovios.github.io/Genovios/" target="_blank">Accessibility Report</a>
 			  </li>
 			  <li class="nav-item">
+				<!-- Link to HTML Report Site -->
 				<a class="nav-link active" aria-current="page" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenovios.github.io%2FGenovios%2F" target="_blank">HTML Report</a>
 			  </li>
 			</ul>
@@ -50,42 +60,48 @@
 		</div>
 	</nav>
 
-	<nav class="navbar navbar-light">
-		<!-- Navbar content -->
-	</nav>
+	<nav class="navbar navbar-light"></nav>
+	<!--End of Navbar Content -->
 
+	<!-- Start of Page -->
 	<h1>My Dev Page</h1>
 
+	<!-- Start of Dev Card -->
 	<div class="row">
-		<div class="col-md-6 offset-md-3">
+		<div class="col-md-6 offset-md-3"> <!-- Aligning Card -->
 			<div class="card">
 				<div class="card-header">
-					<h4 class="card-title"> Dev Card </h4>
+					<h4 class="card-title"> Dev Card </h4> <!-- Card Title -->
 				</div>
 				<div class="card" style="width:400px">
-  					<img class="card-img-top" src="images/devPic.png" alt="Dev Photo">
+  					<img class="card-img-top" src="images/devPic.png" alt="Dev Photo"> <!-- Card Image -->
   						<div class="card-body">
-    						<h4 class="card-title">T, The Dev</h4>
+    						<h4 class="card-title">T, The Dev</h4> <!-- Title for Card Bottom, and Text-->
     						<p class="card-text">
 								Hi! I'm T, and this is my dev page! Feel free to use the Navbar
 								above and take a look around the other linked pages!
 							</p>
+							<!-- Link to Github Profile-->
     						<a href="https://github.com/Genovios" class="btn btn-primary" target="_blank">
 							  See Github Profile
 							</a>
   						</div>
 				</div>
 
+				<!-- Footer Button of Card -->
 				<div class="card-footer"></div>
+					<!-- Link to W3 Schools Site -->
 					<a class="btn btn-primary" href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php" target="blank"> 
 						Learn how to make a Dev Card with BS5
 					</a>
 			</div>
 		</div>
+		<!-- End of Dev Card -->
+
 	</div>
 
+	<!-- Footer Button -->
 	<footer class="text-center footer-first">
-		<!--<button>Click Me!</button>-->
 		<button id="btnClicky" type="button" class="btn btn-outline-light" onclick="btnClickyAction()">Click to change this button to my favorite color!</button>
 	</footer>
 
