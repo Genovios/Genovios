@@ -83,7 +83,7 @@ ul {
     margin: 10px;
 }
 
-#resourceLink {
+#resourceLink1, #resourceLink2 {
     padding: 10px;
     text-align: center;
     color: green;
