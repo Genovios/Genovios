@@ -71,7 +71,10 @@ Code for Dev Card:
 	</div>
 ```
 
-## Disclaimers
-Resources for Assistance
-- CIS Tutoring (Collaborated with a Tutor): JQuery, HTML ID and Class Tagging, Errors
+## Attribution
+### Resources for Assistance:
+- Dr. Barry Cumbie: Brainstorming / Idea Assistance, Coding Assistance, Advice
+- CIS Tutoring (Tutor Collaboration): JQuery, HTML ID and Class Tagging, Errors
 - W3 Schools: JQuery, Image Editing, Text Editing, BS5 (Bootstrap 5)
+- ChatGPT 5.1: Consultated for General Assitance, Code Creation, Code Editing
+- Google AI: Consulted for Styling Assistance

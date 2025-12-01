@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "name": "Punching Bag Game",
+      "repo": "https://github.com/Genovios/punching-bag-game",
+      "app": "https://genovios.github.io/punching-bag-game/",
+      "img": "https://genovios.github.io/punching-bag-game/assets/punchingBag.png"
+    },
+    {
+      "name": "Game Collection App",
+      "repo": "https://github.com/EDMullins/ProjectCharlie",
+      "app": "https://edmullins.github.io/ProjectCharlie/",
+      "img": "../images/controllerIcon.jpg"
+    },
+    {
+      "name": "Timer Redesign Prototype",
+      "repo": "https://github.com/Genovios/Timer-Redesign-Prototype_Delta",
+      "app": "https://genovios.github.io/Timer-Redesign-Prototype_Delta/",
+      "img": "../images/protoTimerPic.png"
+    }
+  ]
+}
