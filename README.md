@@ -41,7 +41,7 @@ https://genovios.github.io/Genovios/
 
 Code for Dev Card:
 
-```
+```html
 <div class="row">
 		<div class="col-md-6 offset-md-3">
 			<div class="card">
