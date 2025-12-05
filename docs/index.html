@@ -1,62 +1,71 @@
 <!--Start of Site-->
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!--Referencing Necessary Style Attributes-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="styles/style.css"> <!-- Linking files / folders -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-  <title>Main Dev Page / Home</title>
+	<title>Main Dev Page / Home</title>
 </head>
+
 <body class="container-fluid">
 
 	<!--Start of Navbar Content / Links-->
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
-		  <a class="navbar-brand" href="#">NAVBAR:</a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon">[Dropdown]</span> <!-- Dropdown Button for Mobile / Small Page-->
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			  <li class="nav-item">
-				<!-- Link to Blog Page -->
-				<a class="nav-link active" aria-current="page" href="pages/blog.html">Blogs</a>
-			  </li>
-			  <li class="nav-item">
-				<!-- Link to Projects Page -->
-				<a class="nav-link active" aria-current="page" href="pages/project.html">Projects</a>
-			  </li>
-			  <li class="nav-item">
-				<!-- Link to Resources Page -->
-				<a class="nav-link active" aria-current="page" href="pages/resources.html">Resources</a>
-			  </li>
-			  <li class="nav-item">
-				<!-- Link to Wiki / Knowledge Terms -->
-				<a class="nav-link active" aria-current="page" href="https://github.com/Genovios/Genovios/wiki" target="_blank">Wiki</a>
-			  </li>
-			  <li class="nav-item">
-				<!-- Link to Repository Page -->
-				<a class="nav-link active" aria-current="page" href="https://github.com/Genovios/Genovios" target="_blank">Source Code</a>
-			  </li>
-			  <li class="nav-item">
-				<!-- Link to Accessibility Report Site-->
-				<a class="nav-link active" aria-current="page" href="https://wave.webaim.org/report#/https://genovios.github.io/Genovios/" target="_blank">Accessibility Report</a>
-			  </li>
-			  <li class="nav-item">
-				<!-- Link to HTML Report Site -->
-				<a class="nav-link active" aria-current="page" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenovios.github.io%2FGenovios%2F" target="_blank">HTML Report</a>
-			  </li>
-			</ul>
-		  </div>
+			<a class="navbar-brand" href="#">NAVBAR:</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">[Dropdown]</span> <!-- Dropdown Button for Mobile / Small Page-->
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<!-- Link to Blog Page -->
+						<a class="nav-link active" aria-current="page" href="pages/blog.html">Blogs</a>
+					</li>
+					<li class="nav-item">
+						<!-- Link to Projects Page -->
+						<a class="nav-link active" aria-current="page" href="pages/project.html">Projects</a>
+					</li>
+					<li class="nav-item">
+						<!-- Link to Resources Page -->
+						<a class="nav-link active" aria-current="page" href="pages/resources.html">Resources</a>
+					</li>
+					<li class="nav-item">
+						<!-- Link to Wiki / Knowledge Terms -->
+						<a class="nav-link active" aria-current="page" href="https://github.com/Genovios/Genovios/wiki"
+							target="_blank">Wiki</a>
+					</li>
+					<li class="nav-item">
+						<!-- Link to Repository Page -->
+						<a class="nav-link active" aria-current="page" href="https://github.com/Genovios/Genovios"
+							target="_blank">Source Code</a>
+					</li>
+					<li class="nav-item">
+						<!-- Link to Accessibility Report Site-->
+						<a class="nav-link active" aria-current="page"
+							href="https://wave.webaim.org/report#/https://genovios.github.io/Genovios/" target="_blank">Accessibility
+							Report</a>
+					</li>
+					<li class="nav-item">
+						<!-- Link to HTML Report Site -->
+						<a class="nav-link active" aria-current="page"
+							href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenovios.github.io%2FGenovios%2F"
+							target="_blank">HTML Report</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
@@ -67,71 +76,85 @@
 	<h1>My Dev Page</h1>
 
 	<!-- Start of Dev Card -->
-	<div class="row">
-		<div class="col-md-6 offset-md-3"> <!-- Aligning Card -->
-			<div class="card">
+	<!-- Start of Dev Card + Skills Box Row -->
+	<div class="row mt-4 d-flex justify-content-center">
+
+		<!-- ===== Left Column: Dev Card ===== -->
+		<div class="col-md-5">
+			<div class="card h-100">
 				<div class="card-header">
-					<h4 class="card-title"> Dev Card </h4> <!-- Card Title -->
-				</div>
-				<div class="card" style="width:400px">
-  					<img class="card-img-top" src="images/devPic.png" alt="Dev Photo"> <!-- Card Image -->
-  						<div class="card-body">
-    						<h4 class="card-title">T, The Dev</h4> <!-- Title for Card Bottom, and Text-->
-    						<p class="card-text">
-								Hi! I'm T, and this is my dev page! Feel free to use the Navbar
-								above and take a look around the other linked pages!
-							</p>
-							<!-- Link to Github Profile-->
-    						<a href="https://github.com/Genovios" class="btn btn-primary" target="_blank">
-							  See Github Profile
-							</a>
-  						</div>
+					<h4 class="card-title">Dev Card</h4>
 				</div>
 
-				<!-- Footer Button of Card -->
-				<div class="card-footer"></div>
-					<!-- Link to W3 Schools Site -->
-					<a class="btn btn-primary" href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php" target="blank"> 
+				<div class="card" style="width:100%">
+					<img class="card-img-top" src="images/devPic.png" alt="Dev Photo">
+					<div class="card-body">
+						<h4 class="card-title">T, The Dev</h4>
+						<p class="card-text">
+							Hi! I'm T, and this is my dev page! Feel free to use the Navbar
+							above and take a look around the other linked pages!
+						</p>
+						<a href="https://github.com/Genovios" class="btn btn-primary" target="_blank">
+							See Github Profile
+						</a>
+					</div>
+				</div>
+
+				<div class="card-footer">
+					<a class="btn btn-primary" href="https://www.w3schools.com/bootstrap5/bootstrap_cards.php" target="blank">
 						Learn how to make a Dev Card with BS5
 					</a>
+				</div>
 			</div>
 		</div>
-		<!-- End of Dev Card -->
 
-		<h1>Dev Skills</h1>
-    <div id="container">
-        <!-- JSON data will be displayed here -->
-    </div>
+		<!-- ===== Right Column: Skills Box ===== -->
+		<div class="col-md-4">
+			<div class="card p-3" style="height:95%;">
 
-		<h2>Add a Skill</h2>
+				<h3 class="text-center">Dev Skills</h3>
 
-<form id="skillForm" class="mb-4">
-    <label class="form-label">Skill Title:</label>
-    <input type="text" id="skillTitle" class="form-control" required>
+				<!-- Where skills will load -->
+				<div id="skillsContainer" class="mb-3" style="max-height:250px; overflow-y:auto;">
+				</div>
 
-    <label class="form-label mt-2">Years Experience:</label>
-    <input type="number" id="skillYears" class="form-control" min="0" required>
+				<hr>
 
-    <button type="submit" class="btn btn-success mt-3">Add Skill:</button>
-</form>
+				<h5>Add a Skill</h5>
 
+				<form id="skillForm" class="mb-2">
+					<label class="form-label">Skill Title:</label>
+					<input type="text" id="skillTitle" class="form-control form-control-sm" required>
+
+					<label class="form-label mt-2">Years Experience:</label>
+					<input type="number" id="skillYears" class="form-control form-control-sm" min="0" required>
+
+					<button type="submit" class="btn btn-success btn-sm mt-3 w-100">Add Skill</button>
+				</form>
+
+			</div>
+		</div>
 	</div>
+	<!-- End Row -->
 
 	<!-- Footer Button -->
 	<footer class="text-center footer-first">
-		<button id="btnClicky" type="button" class="btn btn-outline-light" onclick="btnClickyAction()">Click to change this button to my favorite color!</button>
+		<button id="btnClicky" type="button" class="btn btn-outline-light" onclick="btnClickyAction()">Click to change this
+			button to my favorite color!</button>
 	</footer>
 
 
-	<script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-        crossorigin="anonymous">
-	</script>
+	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+		crossorigin="anonymous">
+		</script>
 
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
 
 	<script src="scripts/script.js"></script>
 
 </body>
+
 </html>
