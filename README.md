@@ -33,6 +33,49 @@ Wireframe Image:
 Link to Wireframe:
 https://www.figma.com/design/ggjDE38FMqXbdeyc9cJCrj/wireframeDevPage?node-id=0-1&t=mA4uUnlI3MyPWvTL-1
 
+## Architecture
+
+### Monolithic Architecture
+
+* README.md
+
+* index.html
+
+* pages
+	* blog.html
+	* project.html
+	* resources.html
+
+* styles
+	* style.css
+
+* scripts
+	* script.js
+	* projectsScripts.js
+
+* images
+	* wireframeDevPage.png
+	* protoTimerPic.png
+	* loopExample.png
+	* gameScreenshot.png
+	* devPic.png
+	* controllerIcon.jpg
+
+* skills.json
+* projects.json
+
+## Infrastructure
+* VS Code (Visual Studio; Code Editor)
+* HTML5
+* BS5 (Bootstrap)
+* CSS3
+* JavaScript
+* ChatGPT 5.1
+* Google AI
+* GitHub (Code Editor, Source Code / Repository)
+* GitHub Pages (Deploy Site)
+* F12 / Browser Dev Tools (Microsoft Edge, Google Chrome)
+
 ## How to View
 Link to Live Site: 
 https://genovios.github.io/Genovios/
@@ -41,7 +84,7 @@ https://genovios.github.io/Genovios/
 
 Code for Dev Card:
 
-```html
+```
 <div class="row">
 		<div class="col-md-6 offset-md-3">
 			<div class="card">
