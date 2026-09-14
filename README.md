@@ -7,7 +7,7 @@ Student
 I have been learning coding since 2022. 
 
 Languages I have used + Years of Experience:
-- C++ (~2)
+- C++ (3)
 - Python (~3)
 - Java (1)
 - JavaScript (~1)
