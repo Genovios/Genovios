@@ -4,8 +4,16 @@ Hi 👋 My name is Manuel Mendes!
 Student
 ----------
 
-I've been learning coding since 2022, and have used C++ and Python.
+I have been learning coding since 2022. 
 
+Languages I have used + Years of Experience:
+- C++ (~2)
+- Python (~3)
+- Java (1)
+- JavaScript (~1)
+- HTML (~2)
+- CSS  (1)
+  
 ## Hi there 👋
 
 --------------------
